@@ -35,3 +35,9 @@
   padding-right: 6px;
 }
 
+.nav-links:hover {
+  background-color: #01959a;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 0.15s ease-in-out;
+}
