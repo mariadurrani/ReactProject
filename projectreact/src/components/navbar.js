@@ -9,9 +9,9 @@ function Navbar() {
       <ul className="nav-menu">
         {MenuItems.map((item, index) => {
           return (
-            <li>
+            <li key={index}>
               {
-                <a href="/">
+                <a className={item.cName} href="/">
                   <i className={item.icon}></i>
                   {item.title}
                 </a>
