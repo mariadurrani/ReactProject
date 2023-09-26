@@ -31,7 +31,7 @@ export const MenuItems = [
     id: 4,
     title: "Sign up",
     url: "/signup",
-    cName: "nav-links",
+    cName: "nav-links-sign",
     icon: "fa-solid fa-right-to-bracket",
   },
 ];
